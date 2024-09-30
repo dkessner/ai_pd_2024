@@ -74,7 +74,9 @@ b (intercept)
 ]
 
 __training the model__ 
-finding the best parameters
+finding the best parameters - 
+minimizing a loss function
+
 ]
 
 
@@ -104,12 +106,52 @@ b (intercept)
 ]
 
 __training the model__ 
-finding the best parameters
+finding the best parameters - 
+minimizing a loss function
 
 __overfitting__  
 too many parameters
 
+]
+
+---
+
+### Training the model
+
+
+
+.split-60[
+
+.column[
+<img src="pix/gradient_descent.png" width="90%"/>
+]
+
+.column[
+
+Train the model  
+
+= find the best parameters  
+
+= minimize a loss function
+
+<br/>
+<br/>
+
+
+Gradient Descent
+
+- input training data
+
+- compare to known output, calculate gradient
+
+- adjust parameters in the direction of the gradient
+
 
 ]
+
+]
+
+
+_
 
 
