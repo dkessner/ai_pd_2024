@@ -3,34 +3,43 @@
 # plot_linear_regression.py
 #
 
-
-
 import matplotlib.pyplot as plt
 import numpy as np
+from numpy.polynomial import Polynomial
 
-rng = np.random.default_rng(1234)
+rng = np.random.default_rng(420)
 
-# Generate data
-x = rng.uniform(0, 10, size=100)
-y = x + rng.normal(size=100)
+# generate data
 
-# Initialize layout
+data_size = 15 
+x = rng.uniform(0, 10, size=data_size)
+y = 2 + .5*x + rng.normal(size=data_size)
+
+x_begin = min(x)
+x_end = max(x)
+
+# scatter plot
+
 fig, ax = plt.subplots(figsize=(9, 9))
-
-# Add scatterplot
+ax.set_ylim(0, 10)
 ax.scatter(x, y, s=60, alpha=0.7, edgecolors="k")
 
-# Fit linear regression via least squares with numpy.polyfit
-# It returns an slope (b) and intercept (a)
-# deg=1 means linear fit (i.e. polynomial of degree 1)
-b, a = np.polyfit(x, y, deg=1)
+plt.savefig("pix/linear_regression_0.jpg")
 
-# Create sequence of 100 numbers from 0 to 100
-xseq = np.linspace(0, 10, num=100)
+# line
 
-# Plot regression line
-ax.plot(xseq, a + b * xseq, color="k", lw=2.5)
+line = Polynomial.fit(x, y, deg=1)
+x_line, y_line = line.linspace(20, [x_begin, x_end])
+ax.plot(x_line, y_line, color="b", lw=2.5)
 
+plt.savefig("pix/linear_regression_1.jpg")
 
-plt.savefig("blah.jpg")
+# poly
+
+poly = Polynomial.fit(x, y, deg=9)
+x_poly, y_poly = poly.linspace(20, [x_begin, x_end])
+ax.plot(x_poly, y_poly, color="r", lw=2.5)
+
+plt.savefig("pix/linear_regression_2.jpg")
+
 
