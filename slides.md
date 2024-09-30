@@ -33,8 +33,48 @@ October 4, 2024
 
 ### Linear regression
 
-.center[
-<img src="pix/linear_regression_0.jpg" width="70%"/>
+
+.split-60[
+
+.column[
+<img src="pix/linear_regression_0.jpg" width="90%"/>
+]
+.column[
+__data__  
+x: input  
+y: output  
+]
+
+]
+
+
+
+---
+
+### Linear regression
+
+.split-60[
+
+.column[
+<img src="pix/linear_regression_1.jpg" width="90%"/>
+]
+
+.column[
+__data__  
+x: input  
+y: output  
+  
+__model__  
+line     
+y = mx + b
+  
+__parameters__   
+m (slope)  
+b (intercept)  
+]
+
+__training the model__ 
+finding the best parameters
 ]
 
 
@@ -42,16 +82,34 @@ October 4, 2024
 
 ### Linear regression
 
-.center[
-<img src="pix/linear_regression_1.jpg" width="70%"/>
+
+.split-60[
+
+.column[
+<img src="pix/linear_regression_2.jpg" width="90%"/>
 ]
 
----
+.column[
+__data__  
+x: input  
+y: output  
+  
+__model__  
+line     
+y = mx + b
+  
+__parameters__   
+m (slope)  
+b (intercept)  
+]
 
-### Linear regression
+__training the model__ 
+finding the best parameters
 
-.center[
-<img src="pix/linear_regression_2.jpg" width="70%"/>
+__overfitting__  
+too many parameters
+
+
 ]
 
 
