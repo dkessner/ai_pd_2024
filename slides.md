@@ -118,8 +118,6 @@ too many parameters
 
 ### Training the model
 
-
-
 .split-60[
 
 .column[
@@ -146,9 +144,27 @@ Gradient Descent
 
 - adjust parameters in the direction of the gradient
 
-
+]
 ]
 
+
+---
+
+### Neural networks
+
+.split-60[
+
+.column[
+<img src="pix/neuron.png" width="80%"/>
+<br/>
+<br/>
+<img src="pix/artificial_neuron.png" width="80%"/>
+]
+
+.column[
+<br/>
+<img src="pix/neural_network.png" width="100%"/>
+]
 ]
 
 
