@@ -168,5 +168,29 @@ Gradient Descent
 ]
 
 
+---
+
+
+### Neural networks 
+
+
+.center[
+
+<img src="pix/neural_network_composition.ppm" width="70%"/>
+
+<br/>
+
+Neural network:   
+composition of (vector) functions 
+
+<br/>
+
+Backpropagation algorithm:  
+calculation of gradient (chain rule)
+
+]
+
+
+
 
 
