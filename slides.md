@@ -152,6 +152,5 @@ Gradient Descent
 ]
 
 
-_
 
 
