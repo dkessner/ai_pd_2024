@@ -181,12 +181,14 @@ Gradient Descent
 <br/>
 
 Neural network:   
-composition of (vector) functions 
+composition of functions   
+(linear transformations / matrix multiplication)
 
 <br/>
 
 Backpropagation algorithm:  
-calculation of gradient (chain rule)
+calculation of gradient   
+(chain rule)  
 
 ]
 
