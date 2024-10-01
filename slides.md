@@ -196,5 +196,11 @@ calculation of gradient (chain rule)
 ### Cosine similarity
 
 .center[
-<img src="pix/cosine.png" width="70%"/>
+<img src="pix/cosine.png" width="60%"/>
 ]
+
+$$
+\cos \theta = \dfrac{u \cdot v}{|u||v|}
+$$
+
+
