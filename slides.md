@@ -249,12 +249,20 @@ cosine similarity (shorter distance)
 - 2020 (OpenAI) GPT-3 released
 
 
+Advantages:
 
+- parallelization / scaling to handle a large amount of training data
+
+- contextualization of embeddings
+
+- shows benefit of foundation model pre-training + downstream fine-tuning
 
 
 ---
 
 ### LLMs
+
+- contextualization of embeddings
 
 prediction of next word
 
