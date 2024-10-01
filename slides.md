@@ -232,7 +232,81 @@ cosine similarity (shorter distance)
 ]
 
 
+---
 
+### Transformers
+
+- 2017 (Google) "Attention is All you Need": introduces the transformer
+  architecture
+
+- 2018 (Google) Bidirectional encoder representations from transformers
+  (BERT): large language model using transformers
+
+- 2018 (OpenAI) "Improving Language Understanding by Generative
+  Pre-Training": GPT-1 released, using transformer architecture,
+  unsupervised pre-training, fine-tuning for downstream tasks
+
+- 2020 (OpenAI) GPT-3 released
+
+
+
+
+
+---
+
+### LLMs
+
+prediction of next word
+
+---
+
+### Terminology
+
+pre-training
+fine tuning
+foundation models
+
+
+---
+
+### Applications
+
+traditional:
+    - image analysis
+    - audio analysis
+    - natural language processing
+    - language translation
+
+generative
+    - text generation
+    - image generation
+
+
+
+
+---
+
+### Topics for STEM classes
+
+- Linear regression
+
+<br/>
+
+- Linear algebra
+    - vectors
+    - dot product
+    - matrix multiplication
+    - linear transformations
+
+<br/>
+
+- Calculus 
+    - derivatives
+    - minimization / maximization of functions
+        - Newton's method
+    - multivariable functions
+        - gradients
+    - chain rule
 
 
 
