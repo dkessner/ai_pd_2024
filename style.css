@@ -47,6 +47,9 @@ a
 .split-40 .column:first-of-type {width: 40%}
 .split-40 .column:last-of-type {width: 60%}
 
+.split-50 .column:first-of-type {width: 50%}
+.split-50 .column:last-of-type {width: 50%}
+
 .split-60 .column:first-of-type {width: 60%}
 .split-60 .column:last-of-type {width: 40%}
 

@@ -40,7 +40,7 @@ October 4, 2024
 <img src="pix/linear_regression_0.jpg" width="90%"/>
 ]
 .column[
-__data__  
+__Data__  
 x: input  
 y: output  
 ]
@@ -60,23 +60,23 @@ y: output
 ]
 
 .column[
-__data__  
+__Data__  
 x: input  
 y: output  
   
-__model__  
+__Model__  
 line     
 y = mx + b
   
-__parameters__   
+__Parameters__   
 m (slope)  
 b (intercept)  
-]
 
-__training the model__ 
+__Training / Learning__ 
 finding the best parameters - 
 minimizing a loss function
 
+]
 ]
 
 
@@ -92,55 +92,54 @@ minimizing a loss function
 ]
 
 .column[
-__data__  
+__Data__  
 x: input  
 y: output  
   
-__model__  
+__Model__  
 line     
 y = mx + b
   
-__parameters__   
+__Parameters__   
 m (slope)  
 b (intercept)  
-]
 
-__training the model__ 
+__Training / Learning__ 
 finding the best parameters - 
 minimizing a loss function
 
-__overfitting__  
-too many parameters
+__Overfitting__  
+using too many parameters
 
+]
 ]
 
 ---
 
 ### Training the model
 
-.split-60[
+.split-50[
 
 .column[
 <img src="pix/gradient_descent.png" width="90%"/>
 ]
 
 .column[
+__Train the model__  
 
-Train the model  
+&nbsp; = learn from data
 
-= find the best parameters  
+&nbsp; = find best parameters  
 
-= minimize a loss function
+&nbsp; = minimize loss function  
 
 <br/>
-<br/>
 
+__Gradient Descent__  
 
-Gradient Descent
+- give training data to model as input
 
-- input training data
-
-- compare to known output, calculate gradient
+- calculate gradient of loss function
 
 - adjust parameters in the direction of the gradient
 
@@ -170,7 +169,6 @@ Gradient Descent
 
 ---
 
-
 ### Neural networks 
 
 
@@ -180,13 +178,13 @@ Gradient Descent
 
 <br/>
 
-Neural network:   
+__Neural network__   
 composition of functions   
 (linear transformations / matrix multiplication)
 
 <br/>
 
-Backpropagation algorithm:  
+__Backpropagation algorithm__  
 calculation of gradient   
 (chain rule)  
 
@@ -204,5 +202,37 @@ calculation of gradient
 $$
 \cos \theta = \dfrac{u \cdot v}{|u||v|}
 $$
+
+
+
+---
+
+### Semantic embedding
+
+.split-60[
+
+.column[
+<img src="pix/word_vectors.jpg" width="90%"/>
+]
+
+.column[
+__Embedding__  
+
+mapping of words to vectors in a high-dimensional vector space
+
+<br/>
+
+__Semantic similarity__   
+
+words with the same meaning have a higher
+cosine similarity (shorter distance)
+
+]
+
+]
+
+
+
+
 
 
