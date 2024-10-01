@@ -191,6 +191,10 @@ calculation of gradient (chain rule)
 ]
 
 
+---
 
+### Cosine similarity
 
-
+.center[
+<img src="pix/cosine.png" width="70%"/>
+]
