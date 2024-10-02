@@ -292,7 +292,9 @@ Advantages:
 
 GPT: Generative Pre-trained Transformer
 
-<br/>
+.split-50[
+
+.column[
 
 Parameter counts
 
@@ -306,7 +308,13 @@ Parameter counts
 - Claude 2-3: ?
 - Gemini: ?
 - GPT-4: ?
+]
 
+.column[
+<img src="pix/ai_cost.png" width="80%"/>
+]
+
+]
 
 ---
 
@@ -315,18 +323,16 @@ Parameter counts
 <br/>
 
 Traditional
-- image analysis
 - audio analysis
+- image analysis
 - natural language processing
-- language translation
 
 <br/>
 
 Generative
 - text generation
 - image generation
-
-
+- drug discovery
 
 
 ---
