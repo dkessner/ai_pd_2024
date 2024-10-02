@@ -220,21 +220,44 @@ __Embedding__
 
 mapping of words to vectors in a high-dimensional vector space
 
-<br/>
-
 __Semantic similarity__   
 
 words with the same meaning have a higher
 cosine similarity (shorter distance)
 
+
+__Contextual embedding__
+
+mapping of words depends on its context within a sentence
+
 ]
 
 ]
+
+---
+
+### Transformer architecture
+
+
+2017 (Google) "Attention is All you Need" introduces the transformer
+architecture
+
+<br/>
+<br/>
+
+Advantages:
+
+- contextualization of embeddings
+
+- parallelization / scaling to handle a large amount of training data
+
+- foundation model pre-training + downstream fine-tuning
+
 
 
 ---
 
-### Transformers
+### Transformers history
 
 - 2017 (Google) "Attention is All you Need": introduces the transformer
   architecture
@@ -246,48 +269,62 @@ cosine similarity (shorter distance)
   Pre-Training": GPT-1 released, using transformer architecture,
   unsupervised pre-training, fine-tuning for downstream tasks
 
+- 2019 (OpenAI) GPT-2 released (closed, no source code)
+
 - 2020 (OpenAI) GPT-3 released
 
+- 2022 (OpenAI) ChatGPT released
 
-Advantages:
+- 2023 (OpenAI) GPT-4 released
 
-- parallelization / scaling to handle a large amount of training data
-
-- contextualization of embeddings
-
-- shows benefit of foundation model pre-training + downstream fine-tuning
+- 2022-2024 Google Gemini, Anthropic Claude, Meta Llama, BLOOM, lots of others
 
 
 ---
 
-### LLMs
+### Large Language Models (LLMs)
 
 - contextualization of embeddings
+- pre-trained on large body of text
+- trained to predict hidden word (BERT), or generate next word (GPT)
 
-prediction of next word
+<br/>
 
----
+GPT: Generative Pre-trained Transformer
 
-### Terminology
+<br/>
 
-pre-training
-fine tuning
-foundation models
+Parameter counts
+
+- GPT-1: 117 million
+- BERT: 340 million
+- GPT-2: 1.5 billion
+- GPT-3: 175 billion
+- BLOOM: 175 billion
+- Llama 3.1: 405 billion
+- Claude: 52 billion
+- Claude 2-3: ?
+- Gemini: ?
+- GPT-4: ?
 
 
 ---
 
 ### Applications
 
-traditional:
-    - image analysis
-    - audio analysis
-    - natural language processing
-    - language translation
+<br/>
 
-generative
-    - text generation
-    - image generation
+Traditional
+- image analysis
+- audio analysis
+- natural language processing
+- language translation
+
+<br/>
+
+Generative
+- text generation
+- image generation
 
 
 
