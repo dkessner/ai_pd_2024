@@ -360,4 +360,25 @@ Generative
     - chain rule
 
 
+---
+
+### Thank you!
+
+.center[
+
+<br/>
+
+<img src="pix/qr.png" width="30%"/>
+
+<br/>
+
+dkessner.github.io/ai_pd_2024
+
+]
+
+
+
+
+
+
 
