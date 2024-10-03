@@ -166,6 +166,11 @@ __Gradient Descent__
 ]
 ]
 
+<!--
+https://commons.wikimedia.org/wiki/File:Neuron3.svg
+https://commons.wikimedia.org/wiki/File:Artificial_neuron_structure.svg
+https://commons.wikimedia.org/wiki/File:Colored_neural_network.svg
+-->
 
 ---
 
@@ -189,6 +194,10 @@ calculation of gradient
 (chain rule)  
 
 ]
+
+<!--
+https://www.researchgate.net/figure/Example-of-simple-neural-network-architecture-with-linear-transformation-dense-layer-and_fig2_347965848
+-->
 
 
 ---
@@ -255,6 +264,12 @@ mapping of words depends on its context within a sentence
 ]
 
 ]
+
+
+<!--
+https://commons.wikimedia.org/wiki/File:Word_vector_illustration.jpg
+-->
+
 
 ---
 
@@ -337,6 +352,10 @@ Parameter counts
 ]
 
 ]
+
+<!--
+Economist Sep 19, 2024
+-->
 
 ---
 
