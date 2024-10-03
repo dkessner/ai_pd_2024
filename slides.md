@@ -366,13 +366,13 @@ Parameter counts
 
 .column[
 <img src="pix/ai_cost.png" width="80%"/>
+
+<small>
+Image: Economist Sep 19, 2024
+</small>
 ]
 
 ]
-
-<!--
-Economist Sep 19, 2024
--->
 
 ---
 
