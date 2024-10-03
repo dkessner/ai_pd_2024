@@ -193,6 +193,28 @@ calculation of gradient
 
 ---
 
+### Computer vision
+
+.split-50[
+
+.column[
+<img src="pix/cv_training.png" width="95%"/>
+.center[__Training__]
+]
+.column[
+<img src="pix/cv_prediction.png" width="95%"/>
+.center[__Prediction__]
+]
+
+]
+
+<!--
+https://commons.wikimedia.org/wiki/File:Simplified_neural_network_training_example.svg
+https://commons.wikimedia.org/wiki/File:Simplified_neural_network_training_example.svg
+-->
+
+---
+
 ### Cosine similarity
 
 .center[
@@ -286,7 +308,7 @@ Advantages:
 
 - contextualization of embeddings
 - pre-trained on large body of text
-- trained to predict hidden word (BERT), or generate next word (GPT)
+- trained to predict hidden word (BERT), or predict next word (GPT)
 
 <br/>
 
