@@ -158,19 +158,27 @@ __Gradient Descent__
 <br/>
 <br/>
 <img src="pix/artificial_neuron.png" width="80%"/>
+
+<br/>
+<br/>
+<br/>
+<small>
+Image credits:
+[1](https://commons.wikimedia.org/wiki/File:Neuron3.svg)
+[2](https://commons.wikimedia.org/wiki/File:Artificial_neuron_structure.svg)
+[3](https://commons.wikimedia.org/wiki/File:Colored_neural_network.svg)
+</small>
+
 ]
 
 .column[
 <br/>
 <img src="pix/neural_network.png" width="100%"/>
 ]
+
 ]
 
-<!--
-https://commons.wikimedia.org/wiki/File:Neuron3.svg
-https://commons.wikimedia.org/wiki/File:Artificial_neuron_structure.svg
-https://commons.wikimedia.org/wiki/File:Colored_neural_network.svg
--->
+<br/>
 
 ---
 
@@ -195,9 +203,10 @@ calculation of gradient
 
 ]
 
-<!--
-https://www.researchgate.net/figure/Example-of-simple-neural-network-architecture-with-linear-transformation-dense-layer-and_fig2_347965848
--->
+<small>
+[Image credit](https://www.researchgate.net/figure/Example-of-simple-neural-network-architecture-with-linear-transformation-dense-layer-and_fig2_347965848)
+</small>
+
 
 
 ---
@@ -209,18 +218,22 @@ https://www.researchgate.net/figure/Example-of-simple-neural-network-architectur
 .column[
 <img src="pix/cv_training.png" width="95%"/>
 .center[__Training__]
+
+<br/>
+<br/>
+<small>
+Image credits:
+[1](https://commons.wikimedia.org/wiki/File:Simplified_neural_network_training_example.svg)
+[2](https://commons.wikimedia.org/wiki/File:Simplified_neural_network_training_example.svg)
+</small>
 ]
+
 .column[
 <img src="pix/cv_prediction.png" width="95%"/>
 .center[__Prediction__]
 ]
 
 ]
-
-<!--
-https://commons.wikimedia.org/wiki/File:Simplified_neural_network_training_example.svg
-https://commons.wikimedia.org/wiki/File:Simplified_neural_network_training_example.svg
--->
 
 ---
 
@@ -244,6 +257,13 @@ $$
 
 .column[
 <img src="pix/word_vectors.jpg" width="90%"/>
+
+<br/>
+<br/>
+<small>
+[Image credit](https://commons.wikimedia.org/wiki/File:Word_vector_illustration.jpg)
+</small>
+
 ]
 
 .column[
@@ -266,15 +286,11 @@ mapping of words depends on its context within a sentence
 ]
 
 
-<!--
-https://commons.wikimedia.org/wiki/File:Word_vector_illustration.jpg
--->
-
-
 ---
 
 ### Transformer architecture
 
+<br/>
 
 2017 (Google) "Attention is All you Need" introduces the transformer
 architecture
@@ -282,7 +298,8 @@ architecture
 <br/>
 <br/>
 
-Advantages:
+
+- model trained for text translation
 
 - contextualization of embeddings
 
@@ -323,7 +340,7 @@ Advantages:
 
 - contextualization of embeddings
 - pre-trained on large body of text
-- trained to predict hidden word (BERT), or predict next word (GPT)
+- trained to predict hidden (BERT) or next (GPT) word
 
 <br/>
 
